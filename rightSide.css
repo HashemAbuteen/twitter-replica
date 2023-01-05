@@ -1,0 +1,10 @@
+#searchBar {
+  background-color: var(--secondary-background-color);
+  padding: 15px;
+  border-radius: 30px;
+}
+.searchInput {
+  background-color: var(--secondary-background-color);
+  border: none;
+  margin-left: 10px;
+}
