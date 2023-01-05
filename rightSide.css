@@ -2,9 +2,70 @@
   background-color: var(--secondary-background-color);
   padding: 15px;
   border-radius: 30px;
+  margin: 20px;
 }
 .searchInput {
   background-color: var(--secondary-background-color);
   border: none;
   margin-left: 10px;
+}
+#trends {
+  padding: 10px;
+  background-color: var(--secondary-background-color);
+  border-radius: 10px;
+  margin: 20px;
+  padding-bottom: 0;
+}
+#trends h1 {
+  color: white;
+  /* margin-bottom: 15px; */
+}
+#trends h2 {
+  color: white;
+  font-size: 20px;
+  text-align: right;
+  margin: 20px;
+}
+#trends p {
+  color: gray;
+}
+.trendsTitle {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  margin-left: 0;
+}
+#aside2 {
+  margin-right: 50px;
+  margin-left: 50px;
+  max-width: 700px;
+}
+.trendSlack {
+  padding-bottom: 10px;
+}
+#follow-suggestions {
+  margin: 20px;
+
+  border-radius: 10px;
+  background-color: var(--secondary-background-color);
+}
+#follow-suggestions h1 {
+  padding: 15px;
+}
+.channel {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+  margin-bottom: 40px;
+}
+.channel p {
+  color: gray;
+}
+.channelname {
+  color: white;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+.trendSlack:hover {
+  background-color: rgba(128, 128, 128, 0.13);
 }
