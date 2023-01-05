@@ -40,12 +40,19 @@ aside {
     justify-content: center;
     text-align: center;
     gap: 5px;
+    color: var(--primary-color);
 }
+
 .rowpost1-2{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: var(--primary-color);
+    padding-left: 4em;
     position: absolute;
-    padding-top: 8%;
-    padding-left: 75%;
+    top: 6%;
 }
 
 .rowpost1>img{
@@ -53,12 +60,58 @@ aside {
     height: 4em;
     border-radius: 50%;
 }
+.rowpost1>.svg1{
+    width: 2em;
+    height: 4em;
+    border-radius: 50%;
+}
 .rowpost1>h1{
     padding-top: 10px;
 }
-.rowpost1>svg{
-    padding-top: 35px;
-}
+
 .rowpost1>p{
     padding-top: 21px;
+}
+.showpost{
+    width: 20vw;
+    height: 20vh;
+    position: absolute;
+    display: flex;
+    top: 10%;
+    left: 40%;
+    border: solid 2px white;
+    margin: 10px;
+    border-radius: 7px;
+    
+}
+.showpost>img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+
+}
+.comment{
+    display: inline;
+    
+}
+.comment>p{
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content:center ;
+    align-items: flex-start;
+    position: absolute;
+    top:16%;
+    right:0;
+    left: 0;
+}
+.showpost>h1{
+    font-size: 10px;
+    color: #fff;
+    padding-top: 2%;
+}
+.showpost>p{
+    font-size: 10px;
+    color: #fff;
+    padding-top: 2%;
 }
